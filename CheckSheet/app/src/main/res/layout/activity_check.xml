@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.ngothi.checksheet.CheckActivity">
+    tools:context="com.example.ngothi.checksheet.ui.activity.CheckActivity">
 
     <LinearLayout
         android:layout_width="match_parent"

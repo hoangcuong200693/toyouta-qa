@@ -13,7 +13,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".ui.activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,14 +21,14 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".CheckActivity"
+            android:name=".ui.activity.CheckActivity"
             android:label="@string/title_activity_check"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Sheetctivity" />
-        <activity android:name=".HistoryActivity" />
-        <activity android:name=".paperSheetActivity" />
-        <activity android:name=".ScanActivity" />
-        <activity android:name=".CameraMain"></activity>
+        <activity android:name=".ui.activity.Sheetctivity" />
+        <activity android:name=".ui.activity.HistoryActivity" />
+        <activity android:name=".ui.activity.paperSheetActivity" />
+        <activity android:name=".ui.activity.ScanActivity" />
+        <activity android:name=".ui.activity.CameraMain"></activity>
     </application>
 
 </manifest>

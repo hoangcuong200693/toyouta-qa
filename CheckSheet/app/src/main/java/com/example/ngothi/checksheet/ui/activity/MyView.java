@@ -1,4 +1,4 @@
-package com.example.ngothi.checksheet;
+package com.example.ngothi.checksheet.ui.activity;
 
 import android.view.MotionEvent;
 import android.view.View;

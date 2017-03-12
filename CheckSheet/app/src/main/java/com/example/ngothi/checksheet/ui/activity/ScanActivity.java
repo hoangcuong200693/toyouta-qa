@@ -1,10 +1,11 @@
-package com.example.ngothi.checksheet;
+package com.example.ngothi.checksheet.ui.activity;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import com.example.ngothi.checksheet.R;
 
 public class ScanActivity extends AppCompatActivity {
     EditText edittext;

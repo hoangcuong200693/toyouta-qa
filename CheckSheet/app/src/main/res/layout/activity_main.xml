@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.ngothi.checksheet.MainActivity">
+    tools:context="com.example.ngothi.checksheet.ui.activity.MainActivity">
 
     <ImageView
         android:id="@+id/image1"
