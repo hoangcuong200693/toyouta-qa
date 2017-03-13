@@ -12,18 +12,19 @@
         android:layout_width="250dp"
         android:layout_height="170dp"
         android:layout_marginLeft="50dp"
-        android:background="@drawable/image"
-        />
+        android:layout_marginTop="20dp"
+        android:background="@drawable/image" />
 
     <Button
         android:id="@+id/scan"
         android:layout_width="300dp"
         android:layout_height="100dp"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="60dp"
         android:background="@android:drawable/btn_default"
-        android:text="SCAN"
+        android:gravity="center"
         android:onClick="Scan13"
+        android:text="SCAN"
         android:textSize="24sp" />
 
     <Button
@@ -32,9 +33,10 @@
         android:layout_height="100dp"
         android:layout_marginLeft="30dp"
         android:background="@android:drawable/btn_default"
+        android:gravity="center"
+        android:onClick="history"
         android:text="HISTORY"
-        android:textSize="24sp"
-        android:onClick="history"/>
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/edit"
@@ -42,8 +44,9 @@
         android:layout_height="100dp"
         android:layout_marginLeft="30dp"
         android:background="@android:drawable/btn_default"
-        android:text="setting"
-        android:textSize="24sp"
-        android:onClick="setting"/>
+        android:gravity="center"
+        android:onClick="setting"
+        android:text="SETTING"
+        android:textSize="24sp" />
 
 </LinearLayout>

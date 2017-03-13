@@ -1,43 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.example.ngothi.checksheet.ui.activity.ScanActivity">
-    <ImageView
-        android:id="@+id/image2"
-        android:layout_width="350dp"
-        android:layout_height="450dp"
-        android:background="@drawable/image"
-        />
-    <EditText
+
+    <FrameLayout
+        android:id="@+id/content_frame"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Seq."
-        android:textSize="20sp"
-        android:id="@+id/textSeq1"/>
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
-        <Button
-            android:layout_width="190dp"
-            android:layout_height="70dp"
-            android:background="@android:color/holo_green_dark"
-            android:text="QUAY LạI"
-            android:id="@+id/back1"
-            android:onClick="back1"/>
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/textSeq1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Seq."
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/back1"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="0.5"
+                android:background="@android:color/holo_green_dark"
+                android:onClick="back1"
+                android:text="QUAY LạI"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/scan2"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="0.5"
+                android:background="@android:color/holo_blue_light"
+                android:onClick="Scan2"
+                android:text="SCAN"
+                android:textStyle="bold" />
+        </LinearLayout>
 
         <Button
-            android:id="@+id/scan2"
-            android:layout_width="190dp"
-            android:layout_height="70dp"
-            android:background="@android:color/holo_blue_light"
-            android:text="SCAN"
-            android:onClick="Scan2"/>
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/black"
+            android:onClick="toggleFlash"
+            android:text="FLASH"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
     </LinearLayout>
 </LinearLayout>
